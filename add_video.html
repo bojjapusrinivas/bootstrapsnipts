@@ -1,0 +1,376 @@
+<html>
+
+<head>
+    <title>TEMPLATE</title>
+    <meta charset="utf-8" />
+    <link rel="canonical" href="TEMPLATE" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="" />
+    <meta name="p:domain_verify" content="" />
+    <meta name="robots" content="index, follow" />
+    <meta name="classification" content="TEMPLTAE" />
+    <meta name="revisit-after" content="5 days" />
+    <meta name="author" content="TEMPLATE.COM" />
+    <meta name="identifier-url" content="www.template.com" />
+    <meta name="distribution" content="Global" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="rating" content="General" />
+    <meta name="language" content="English" />
+    <meta http-equiv="Keep-Alive" content="300">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+    <meta name="p:domain_verify" content="" />
+    <meta property="og:site_name" content="template" />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="https://www.template.com/" />
+    <meta property="og:title" content="template" />
+    <meta property="og:description" content="template" />
+    <meta name="google-site-verification" content="Bde3xUPGs4PkgWyVdVlJ_fHl_VITc2uZv5niZBQb4Pw" />
+    <!-- Favicon for social -->
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <!-- FONTS	-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet" async>
+    <!-- CSS -->
+    <link href="source/css/bootstrap.css" rel="stylesheet" />
+    <link href="build/css/easySelectStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="m-0" style="font-size: 15px;">
+        <!--<span class="close ml-auto">&times;</span>-->
+        <div class="col-xl-5 col-lg-7 col-md-10 col-sm-12 mx-auto border shadow mt-5 p-0">
+            <form>
+                <div id="divajax"></div>
+                <div class="text-center mx-auto mb-3 p-2 alert alert-primary rounded-0 ">
+                    <h4 class="w-100 font-weight-bold mb-0">ADD YOUTUBE VIDEO </h4>
+                </div>
+
+                <div class="row mx-0">
+                    <div class="form-group mx-1  d-flex w-100">
+                        <label for="staticEmail" class="col-sm-3 font-weight-bold col-form-label py-0 pr-0">Youtube Link:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="txtYoutubeLink" value="link6" name="txtYoutubeLink" placeholder="Enter Youtube Link" size="50" class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                        </div>
+                    </div>
+                    <div class=" form-group mx-1  d-flex w-100">
+                        <label for="staticEmail" class="col-sm-3 font-weight-bold col-form-label py-0 pr-0">Video Title:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="txtTitle" name="txtTitle" placeholder="Enter Youtube Title" size="50" class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                        </div>
+                    </div>
+                    <div class="row  form-group mx-1  d-flex w-100">
+                        <label for="staticEmail" class="col-sm-3 font-weight-bold col-form-label py-0 pr-0">Video Date:</label>
+                        <div class="col-sm-9">
+                            <input type="date" id="txtvDate" name="txtvDate" placeholder="Enter Youtube Date" size="50" class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                        </div>
+                    </div>
+                    <div class=" form-group mx-1  d-flex w-100">
+                        <label for="staticEmail" class="col-sm-3 font-weight-bold col-form-label py-0 pr-0">Video Duration:</label>
+                        <div class="col-sm-9">
+                            <input id="txtvDuration" name="txtvDuration" type="text" placeholder="MM:SS" class="masked ml-1 border w-100 p-1" pattern="(1[0-2]|0[1-9]):(1[5-9]|2\d)" data-valid-example="01:30" style="font-size:14px; color:#000">
+                            <!--<input type="time" inputmask="'mask': '00:00:00'" min="1:00" max="23:59" id="txtvDuration" name="txtvDuration" placeholder="Enter Transcription Time" size="50" class="ml-1">-->
+                        </div>
+                    </div>
+                    <div class=" form-group mx-1  d-flex w-100">
+                        <label for="staticEmail" class="col-sm-3 font-weight-bold col-form-label py-0 pr-0">Description:</label>
+                        <div class="col-sm-9">
+                            <input type="text" id="txtDescription" name="txtDescription" placeholder="Enter Youtube Description" size="80" class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="w-100 my-2 py-2  " style="background: #f7f7f7; font-size: 17px;color: #144084;">
+                    <label for="staticEmail" class="col-sm-3 font-weight-bold mb-0">Keywords</label>
+                </div>
+
+
+
+                <div class="row mx-0">
+                    <div class=" form-group mt-1 col-6">
+                        <div class="col-12 d-flex ">
+                            <input type="checkbox" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" data-toggle='collapse' data-target='#txtEcocsystemname' class="mt-1">
+                            <label for="staticEmail" class="  col-form-label py-0 ml-2 font-weight-bold">Ecosystem</label>
+                        </div>
+                        <div id="dvecosystem" class="col-12 collapse">
+                            <select id="txtEcocsystemname" name="txtEcocsystemname" multiple class="p-2 mt-2 border w-100 d-none">
+
+                                <option value="3 D PRINTING">3 D PRINTING</option>
+
+
+                                <option value="ABRASIVES">ABRASIVES</option>
+
+
+                                <option value="ADHESIVES & SEALANTS">ADHESIVES & SEALANTS</option>
+
+
+                                <option value="ADVANCED TECHNOLOGIES">ADVANCED TECHNOLOGIES</option>
+
+
+                                <option value="ADVERTISING, MEDIA & BROADCASTING">ADVERTISING, MEDIA & BROADCASTING</option>
+
+
+                                <option value="AEROSPACE & AVIATION">AEROSPACE & AVIATION</option>
+
+
+                                <option value="AGRICULTURE & ALLIED INDUSTRIES">AGRICULTURE & ALLIED INDUSTRIES</option>
+
+
+                                <option value="AGROCHEMICALS">AGROCHEMICALS</option>
+
+
+                                <option value="AIRLINES & AIRPORTS">AIRLINES & AIRPORTS</option>
+
+
+                                <option value="ALCOHOLIC BEVERAGES">ALCOHOLIC BEVERAGES</option>
+
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class=" form-group mt-1 col-6">
+                        <div class="col-12 d-flex">
+                            <input type="checkbox" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" data-toggle='collapse' data-target='#dvprojects' class="mt-1">
+                            <label for="staticEmail" class="ml-2  col-form-label py-0 font-weight-bold">Topic</label>
+                        </div>
+                        <div id="dvprojects" class="col-12 collapse">
+                            <select id="txtProjectname" name="txtProjectname" data-max="6" multiple="multiple" class="p-2 mt-2 border w-100">
+
+
+                                <option value="1,3-Propanediol ">1 ,3-Propanediol (PDO)</option>
+
+
+                                <option value="1,4 Butanediol ">1,4 Butanediol</option>
+
+
+                                <option value="1,6-Hexanediol ">1,6-Hexanediol</option>
+
+
+                                <option value="1-Decene ">1-Decene</option>
+
+
+                                <option value="2,5-Furandicarboxylic Acid (FDCA) ">2,5-Furandicarboxylic Acid (FDCA)</option>
+
+
+                                <option value="2-Ethylhexanol (2-EH) ">2-Ethylhexanol (2-EH)</option>
+
+
+                                <option value="2-Methylpropene ">2-Methylpropene</option>
+
+
+                                <option value="2-Shot Injection Molding ">2-Shot Injection Molding</option>
+
+
+                                <option value="2D Chromatography ">2D Chromatography</option>
+
+
+                                <option value="360-Degree Camera ">360-Degree Camera</option>
+
+
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                <div class="row mx-0">
+                    <div class="form-group  mt-3 col-6 ">
+                        <div class="col-12 d-flex ">
+                            <input type="checkbox" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" data-toggle='collapse' data-target='#dvCompany' class="mt-1">
+                            <label for="staticEmail " class="ml-2 col-form-label py-0 font-weight-bold ">Company</label>
+                        </div>
+                        <div id="dvCompany" class="col-12 collapse">
+                            <select id="txtCompanyname" name="txtCompanyname" multiple class="p-2 mt-2 w-100 border ">
+
+                                <option value="CP-4834648">bSimplify</option>
+
+
+                                <option value="CP-4834689">Advance Research Instruments Company</option>
+
+
+                                <option value="CP-4834649">Calero-MDSL</option>
+
+
+                                <option value="CP-4834690">Xiangtan Xiangyi Instrument Co., Ltd.</option>
+
+
+                                <option value="CP-4834652">Genesis Networks Enterprises</option>
+
+
+                                <option value="CP-4834687">KEP Technologies Group</option>
+
+
+                                <option value="CP-4834688">HTDS</option>
+
+
+                                <option value="CP-4834691">SKZ Industrial Co., Limited</option>
+
+
+                                <option value="CP-4834692">IPT Institut für Prüftechnik Gerätebau GmbH & Co. KG</option>
+
+
+                                <option value="CP-4834693">Innovatech Labs, LLC</option>
+
+
+
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group  mt-3 col-6">
+                        <div class="col-12">
+                            <input type="checkbox" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" data-toggle='collapse' data-target='#dvspeakers_01' class="mt-1">
+                            <label for="staticEmail " class="ml-2 col-form-label py-0 font-weight-bold ">Speakers</label>
+                        </div>
+
+                        <div id="dvspeakers_01" class="col-12 collapse mt-3">
+                            <div class="row ">
+
+                                <div class="d-flex flex-column col-6 "><span class="w-100  ">
+																		 First Name: 
+																		 </span>
+                                    <input type="textbox " width="70px " id="txtfirstName " name="txtfirstName " placeholder="First Name " class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                                </div>
+                                <div class="d-flex flex-column col-6 ">
+                                    <span class="w-100 ">
+																		 Last Name: 
+																		 </span>
+                                    <input type="textbox " width="70px " id="txtlastName " name="txtlastName " placeholder="Last Name " class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                                </div>
+                                <div class="d-flex flex-column col-6 mt-3 ">
+                                    <span class="w-100 ">Designation: 
+																		 </span>
+                                    <input type="textbox " width="70px " id="txtDesignation " name="txtDesignation " placeholder="Designation " class="ml-1 border w-100 p-1" style="font-size:14px; color:#000">
+                                </div>
+                                <div class="d-flex flex-column col-6 mt-3 ">
+                                    <span class="col-6 pl-0 ">Gender: 
+																		 </span>
+                                    <span class="d-flex mt-2 ">
+																		 <span>
+																		 <input type="radio" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" class="mt-1">
+																		 &nbsp;Male | &nbsp; 
+																		 </span>
+                                    <input type="radio" width="70px" id="txtecosystem" name="txtecosystem" placeholder="Ecosystem" class="mt-1"> &nbsp;Female
+                                    <span>
+																		 </span></span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button type="button " name="btnadd " onclick="AddSpeakers() " value="Add Speaker " class="mx-auto mt-3 mb-2 add-row btn btn-sm btn-secondary">Add Speaker</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="w-100 my-2 py-2  " style="background: #f7f7f7; font-size: 17px;color: #144084;">
+                    <label for="staticEmail" class="col-sm-3 font-weight-bold mb-0">Transcription</label>
+                </div>
+
+
+                <div class="row mx-0">
+
+                    <div class="col-3">
+
+                        <input id="txtvDuration " name="txtvDuration1 " type="text " placeholder="MM:SS " class="masked ml-1 border my-2 w-100 p-1 " pattern="(1[0-2]|0[1-9]):(1[5-9]|2\d) " data-valid-example="01:30 " style="font-size:14px;">
+                    </div>
+
+
+                    <div class="col-6 px-0 mx-0">
+                        <textarea type="text " id="txtTranscription1 " name="txtTranscription1 " style="font-size:14px; " placeholder="Transcription " size="50 " cols="70 " rows="3 " class="ml-1 border my-2 w-100 p-1 "></textarea>
+                    </div>
+
+                    <div class="col-3 text-center px-0 mx-0">
+                        <button type="button " name="btnadd " onclick="AddSpeakers() " value="Add Speaker " class="mx-auto mb-2 add-row btn btn-sm btn-secondary" style="margin-top: 26px !important;">Add Transcription</button>
+                    </div>
+
+
+
+
+                </div>
+
+                <hr/>
+
+
+                <div class="row">
+
+                    <div class="col-sm-12 text-center ">
+
+                        <button type="button " id="btnSave " name="btnSave " value=" ADD " onclick="addNEWVideo() " class="mx-auto mt-3 mb-2 add-row btn btn-sm btn-primary">SAVE</button>
+
+                        <button type="button " id="btnClose " name="btnClose " value="CLOSE " data-bs-dismiss="modal " onclick="Btnclose()  " class="mx-auto mt-3 mb-2 add-row btn btn-sm btn-primary">CLOSE</button>
+                    </div>
+
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js "></script>
+<script src="source/js/bootstrap.bundle.js "></script>
+<script src="build/js/easyselect.js"></script>
+
+
+
+<script>
+    $("#txtEcocsystemname").easySelect({
+        buttons: true, //
+        search: true,
+        placeholder: 'Choose Ecosystem',
+        placeholderColor: '#524781',
+        selectColor: '#524781',
+        itemTitle: 'Countrys selected',
+        showEachItem: true,
+        width: '100%',
+        dropdownMaxHeight: '200px',
+    })
+
+    $("#txtProjectname").easySelect({
+        buttons: true, //
+        search: true,
+        placeholder: 'Choose Topic',
+        placeholderColor: '#524781',
+        selectColor: '#524781',
+        itemTitle: 'Countrys selected',
+        showEachItem: true,
+        width: '100%',
+        dropdownMaxHeight: '200px',
+    })
+
+    $("#txtCompanyname").easySelect({
+        buttons: true, //
+        search: true,
+        placeholder: 'Choose Company',
+        placeholderColor: '#524781',
+        selectColor: '#524781',
+        itemTitle: 'Countrys selected',
+        showEachItem: true,
+        width: '100%',
+        dropdownMaxHeight: '200px',
+    })
+
+</script>
+
+
+</html>
